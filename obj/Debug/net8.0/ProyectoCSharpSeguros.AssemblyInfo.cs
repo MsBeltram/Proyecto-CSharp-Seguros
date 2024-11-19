@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoCSharpSeguros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+712109885bf3809b8881f54c6d56fdef9966c36a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoCSharpSeguros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoCSharpSeguros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
