@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Proyecto Galicia Seguros\\PracticaSeguros\\Proyecto CSharp Seguros\\ProyectoCSharpSeguros\\ProyectoCSharpSeguros.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\ApiWebSeguros\\Proyecto-CSharp-Seguros\\ProyectoCSharpSeguros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Proyecto Galicia Seguros\\PracticaSeguros\\Proyecto CSharp Seguros\\ProyectoCSharpSeguros\\ProyectoCSharpSeguros.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\ApiWebSeguros\\Proyecto-CSharp-Seguros\\ProyectoCSharpSeguros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Proyecto Galicia Seguros\\PracticaSeguros\\Proyecto CSharp Seguros\\ProyectoCSharpSeguros\\ProyectoCSharpSeguros.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\ApiWebSeguros\\Proyecto-CSharp-Seguros\\ProyectoCSharpSeguros.csproj",
         "projectName": "ProyectoCSharpSeguros",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Galicia Seguros\\PracticaSeguros\\Proyecto CSharp Seguros\\ProyectoCSharpSeguros\\ProyectoCSharpSeguros.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\ApiWebSeguros\\Proyecto-CSharp-Seguros\\ProyectoCSharpSeguros.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Galicia Seguros\\PracticaSeguros\\Proyecto CSharp Seguros\\ProyectoCSharpSeguros\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\ApiWebSeguros\\Proyecto-CSharp-Seguros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,37 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Negotiate": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.60, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
